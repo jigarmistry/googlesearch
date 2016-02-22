@@ -1,10 +1,9 @@
 {
   "name": "googlesearch",
   "main": "./lib/googlesearch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Search Highlighted word in google",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "googlesearch:google-it"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
