@@ -2,9 +2,9 @@ Shell = require 'shell'
 
 module.exports =
   activate: ->
-    atom.commands.add 'atom-workspace', 'googlesearch:google-it': => @convert()
+    atom.commands.add 'atom-workspace', 'googlesearch:google-it': => @search()
 
-  convert: ->
+  search: ->
     editor = atom.workspace.getActiveTextEditor()
     buffer = editor.getBuffer()
     selections = editor.getSelections()
