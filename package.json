@@ -1,7 +1,7 @@
 {
   "name": "googlesearch",
   "main": "./lib/googlesearch",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Search Highlighted word in google",
   "keywords": [],
   "activationCommands": {
