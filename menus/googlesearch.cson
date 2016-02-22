@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle googlesearch'
+      'command': 'googlesearch:google-it'
+    }
+  ]
+'menu': [
+  {
+    'label': 'My Packages'
+    'submenu': [
+      'label': 'Google Search'
+      'submenu': [
+        {
+          'label': 'Search'
+          'command': 'googlesearch:google-it'
+        }
+      ]
+    ]
+  }
+]
